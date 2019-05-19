@@ -6,8 +6,10 @@ package com.didispace.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.didispace.biz.UserBiz;
 import com.didispace.entity.User;
@@ -27,6 +29,16 @@ public class UserController {
     @RequestMapping(value="/getUser")
     public User getUser(@RequestParam Long id){
         User user =userBiz.selectById(id);
+        
         return user;
+    }
+    
+    
+    @RequestMapping(value="/main")
+    public String showMainPage(@RequestParam Long id,
+                        ModelMap map){
+        User user =userBiz.selectById(id);
+        map.addAttribute("user", user);
+        return "main.jsp";
     }
 }
