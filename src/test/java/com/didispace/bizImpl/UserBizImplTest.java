@@ -30,6 +30,9 @@ public class UserBizImplTest {
     @Autowired
     UserBiz userBiz;
     
+    /**
+     * 测试Biz的方法
+     */
     @Test
     public void test() {
         User user=userBiz.selectById((long) 1);

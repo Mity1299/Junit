@@ -62,7 +62,9 @@ public class UserControllerTest {
         response = new MockHttpServletResponse();
         mvc = MockMvcBuilders.webAppContextSetup(wac).build();
     }
-    
+    /**
+     * 模拟request和response进行测试
+     */
     @Ignore
     public void test() {
         request.setParameter("id", "1");
@@ -90,6 +92,9 @@ public class UserControllerTest {
         
     }
     
+    /**
+     * 测试.do后缀
+     */
     @Ignore
     @Rollback
     public void testDoPath() {
