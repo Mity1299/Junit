@@ -1,7 +1,7 @@
 package com.didispace;
 
 import com.didispace.controller.HelloController;
-import com.didispace.controller.UserController;
+import com.didispace.controller.ExUserController;
 import com.didispace.entity.User;
 
 import org.junit.Before;
@@ -41,7 +41,7 @@ public class ApplicationTests {
 	public void setUp() throws Exception {
 		mvc = MockMvcBuilders.standaloneSetup(
 				new HelloController(),
-				new UserController()).build();
+				new ExUserController()).build();
 	}
 
 	@Test
