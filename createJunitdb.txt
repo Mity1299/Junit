@@ -1,0 +1,29 @@
+CREATE DATABASE softwaredb;
+//创建数据库空间
+CREATE USER softwaredb IDENTIFIED BY '123456'; 
+//创建用户
+SHOW GRANTS FOR junitdb;
+//显示权限
+
+GRANT ALL PRIVILEGES ON junitdb.* TO 'junitdb'@'%'; 
+//赋予权限
+FLUSH PRIVILEGES;
+//刷新权限
+SHOW GRANTS FOR junitdb;
+//显示权限
+
+报错1251执行如下命令：
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'password' PASSWORD EXPIRE NEVER; #修改加密规则 
+ALTER USER 'junitdb'@'%' IDENTIFIED WITH mysql_native_password BY '123456';#更新一下用户的密码 
+FLUSH PRIVILEGES; #刷新权限 
+
+
+
+CREATE DATABASE softwaredb;
+CREATE USER softwaredb IDENTIFIED BY '123456'; 
+SHOW GRANTS FOR junitdb;
+
+
+GRANT ALL PRIVILEGES ON junitdb.* TO 'junitdb'@'%'; 
+FLUSH PRIVILEGES;
+SHOW GRANTS FOR junitdb;
