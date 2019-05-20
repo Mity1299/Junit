@@ -41,7 +41,6 @@ import com.didispace.Application;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)//启动类
-@Transactional//事务
 @WebAppConfiguration
 public class UserControllerTest {
     
@@ -104,6 +103,37 @@ public class UserControllerTest {
                     andExpect(status().isOk()).
                     andDo(print());
 
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        
+    }
+    
+    
+    @Ignore
+    public void testInsertUserPath() {
+        try {
+            mvc.perform(post("/user/insertUser.do").
+                    param("name", "monika").
+                    param("age", "15")).
+                andExpect(status().isOk()).
+                andDo(print());
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        
+    }
+    
+    @Test
+    public void testInsertUserPathLegal() {
+        try {
+            mvc.perform(post("/user/insertUser.do").
+                    param("name", "monika").
+                    param("age", "50")).
+                andExpect(status().isOk()).
+                andDo(print());
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

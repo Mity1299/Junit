@@ -22,14 +22,5 @@ public class Application {
 
 		SpringApplication.run(Application.class, args);
 	}
-	/**
-     * 设置匹配*.do后缀请求
-     */
-    @Bean
-    public ServletRegistrationBean servletRegistrationBean(DispatcherServlet dispatcherServlet) {
-        ServletRegistrationBean servletServletRegistrationBean = new ServletRegistrationBean(dispatcherServlet);
-        servletServletRegistrationBean.addUrlMappings("*.do");
-        return servletServletRegistrationBean;
-       
-    }
+
 }

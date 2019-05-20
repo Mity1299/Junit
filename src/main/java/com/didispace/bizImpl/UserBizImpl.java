@@ -28,4 +28,13 @@ public class UserBizImpl implements UserBiz {
         return user;
     }
 
+    @Override
+    public int insertUser(String name,Integer age) {
+        // TODO Auto-generated method stub
+        User user =new User();
+        user.setName(name);
+        user.setAge(age);
+        return userMapper.insert(user);
+    }
+
 }
