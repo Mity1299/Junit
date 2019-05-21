@@ -1,8 +1,12 @@
 package com.didispace.entity;
 
+import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 
 import org.hibernate.validator.constraints.NotEmpty;
+
+import com.didispace.validator.group.User1Group;
+import com.didispace.validator.group.User2Group;
 
 
 public class User {
@@ -12,7 +16,8 @@ public class User {
     @NotEmpty
     private String name;
     
-    @Min(value = 18 ,message = "年龄必须大于等于18")
+    @Min(value = 18 ,message = "年龄必须大于等于18",groups = {User1Group.class})
+    @Max(value = 18 ,message = "年龄必须大于等于18",groups = {User2Group.class})
     private Integer age;
 
 

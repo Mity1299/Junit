@@ -20,6 +20,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.didispace.biz.UserBiz;
 import com.didispace.entity.User;
 import com.didispace.mapper.UserMapper;
+import com.didispace.validator.group.User1Group;
 
 /**
  * @author Mity1299
@@ -68,7 +69,7 @@ public class UserController {
     
     @RequestMapping(value="/insertUserCorrect.do",method = RequestMethod.POST)
     public String insertUserCorrect(ModelMap map,
-                             @Valid @ModelAttribute("user") User user,
+                             @Validated(value = {User1Group.class}) @ModelAttribute("user") User user,
                              BindingResult bindResult                                                   
                              ){
 
@@ -77,13 +78,13 @@ public class UserController {
             return "user_test";
         }else {
             result =userBiz.insertUserCorrect(user);
-            return "success";
+            return "redirect:main";
         }
     }
     
-    @RequestMapping(value="/insertUserCorrect",method = RequestMethod.GET)
-    public String showUserPage(User user) {
-        return "user_test";
-    }
+    /*
+     * @RequestMapping(value="/insertUserCorrect",method = RequestMethod.GET) public
+     * String showUserPage(User user) { return "user_test"; }
+     */
 
 }

@@ -126,7 +126,7 @@ public class UserControllerTest {
         
     }
     
-    @Test
+    @Ignore
     public void testInsertUserPathLegal() {
         try {
             mvc.perform(post("/user/insertUserCorrect.do").
@@ -140,4 +140,20 @@ public class UserControllerTest {
         
     }
 
+    /**
+     * 分组校验
+     */
+    @Test
+    public void testInsertUser2PathLegal() {
+        try {
+            mvc.perform(post("/user2/insertUserCorrect.do").
+                    param("name", "monika").
+                    param("age", "0")).
+                    andDo(print());
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        
+    }
 }
