@@ -74,12 +74,16 @@ public class UserController {
 
         int result =0;
         if(bindResult.hasErrors()) {
-            return "main";
+            return "user_test";
         }else {
             result =userBiz.insertUserCorrect(user);
             return "success";
         }
     }
     
+    @RequestMapping(value="/insertUserCorrect",method = RequestMethod.GET)
+    public String showUserPage(User user) {
+        return "user_test";
+    }
 
 }
