@@ -1,6 +1,5 @@
 package com.didispace.entity;
 
-import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 
 import org.hibernate.validator.constraints.NotEmpty;
@@ -13,7 +12,7 @@ public class User {
     @NotEmpty
     private String name;
     
-    @Min(value = 18)
+    @Min(value = 18 ,message = "年龄必须大于等于18")
     private Integer age;
 
 

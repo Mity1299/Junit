@@ -66,5 +66,20 @@ public class UserController {
         
     }
     
+    @RequestMapping(value="/insertUserCorrect.do",method = RequestMethod.POST)
+    public String insertUserCorrect(ModelMap map,
+                             @Valid @ModelAttribute("user") User user,
+                             BindingResult bindResult                                                   
+                             ){
+
+        int result =0;
+        if(bindResult.hasErrors()) {
+            return "main";
+        }else {
+            result =userBiz.insertUserCorrect(user);
+            return "success";
+        }
+    }
+    
 
 }

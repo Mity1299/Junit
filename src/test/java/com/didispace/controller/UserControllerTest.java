@@ -129,9 +129,9 @@ public class UserControllerTest {
     @Test
     public void testInsertUserPathLegal() {
         try {
-            mvc.perform(post("/user/insertUser.do").
+            mvc.perform(post("/user/insertUserCorrect.do").
                     param("name", "monika").
-                    param("age", "50")).
+                    param("age", "0")).
                 andExpect(status().isOk()).
                 andDo(print());
         } catch (Exception e) {

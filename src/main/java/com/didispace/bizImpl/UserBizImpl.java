@@ -4,8 +4,11 @@
 */
 package com.didispace.bizImpl;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.validation.BindingResult;
 
 import com.didispace.biz.UserBiz;
 import com.didispace.entity.User;
@@ -36,5 +39,10 @@ public class UserBizImpl implements UserBiz {
         user.setAge(age);
         return userMapper.insert(user);
     }
+
+    @Override
+    public int insertUserCorrect( User user) {
+        return userMapper.insert(user);
+    }            
 
 }
