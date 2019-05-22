@@ -12,6 +12,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.redirectedUrl;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+import org.apache.log4j.Logger;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -47,6 +48,7 @@ public class HouseControllerTest {
     @Autowired
     private HouseController houseController;
     
+    private Logger logger = Logger.getLogger(getClass());
     
     @Before
     public void setUp() throws Exception{
@@ -54,6 +56,8 @@ public class HouseControllerTest {
         request.setCharacterEncoding("UTF-8");
         response = new MockHttpServletResponse();
         mvc = MockMvcBuilders.webAppContextSetup(wac).build();
+        
+
     }
     
     /**
@@ -85,6 +89,10 @@ public class HouseControllerTest {
                    param("email", "8080@qq.com")).
            andExpect(status().is(200)).
            andDo(print());
+        
+        logger.info("测试自定义数据校验");
+        logger.debug("debug自定义数据校验");//这个不知道为什么没办法显示
+        logger.error("发生了错误");
     } catch (Exception e) {
         // TODO Auto-generated catch block
         e.printStackTrace();
