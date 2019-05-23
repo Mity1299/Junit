@@ -4,6 +4,8 @@
 */
 package com.didispace.biz;
 
+import java.util.List;
+
 import com.didispace.entity.User;
 
 /**
@@ -17,4 +19,6 @@ public interface UserBiz {
     public int insertUser(String name,Integer age);
     
     public int insertUserCorrect(User user);
+    
+    public List<User> testUnion();
 }

@@ -1,5 +1,7 @@
 package com.didispace.entity;
 
+import java.io.Serializable;
+
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 
@@ -9,7 +11,12 @@ import com.didispace.validator.group.User1Group;
 import com.didispace.validator.group.User2Group;
 
 
-public class User {
+public class User implements Serializable{
+
+    /**
+     * 
+     */
+    private static final long serialVersionUID = 3946503628565393128L;
 
     private Long id;
     
@@ -47,5 +54,11 @@ public class User {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+    
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return super.toString();
     }
 }

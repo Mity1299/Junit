@@ -1,0 +1,7 @@
+2019-05-22 11:14:21,805  INFO ApplicationTest:48 ---- Starting ApplicationTest on WIN-MKK49AEUNMI with PID 12364 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-22 11:14:21,807 DEBUG ApplicationTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-22 11:14:21,813  INFO ApplicationTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-22 11:14:26,516  INFO ApplicationTest:57 ---- Started ApplicationTest in 5.472 seconds (JVM running for 7.323)
+2019-05-22 11:14:26,550  INFO ApplicationTest:28 ---- 输出info
+2019-05-22 11:14:26,559 DEBUG ApplicationTest:29 ---- 输出debug
+2019-05-22 11:14:26,560 ERROR ApplicationTest:30 ---- 输出error

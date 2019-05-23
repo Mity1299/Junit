@@ -4,6 +4,8 @@
 */
 package com.didispace.bizImpl;
 
+import java.util.List;
+
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,6 +45,12 @@ public class UserBizImpl implements UserBiz {
     @Override
     public int insertUserCorrect( User user) {
         return userMapper.insert(user);
+    }
+
+    @Override
+    public List<User> testUnion() {
+        // TODO Auto-generated method stub
+        return userMapper.testUnion();
     }            
 
 }

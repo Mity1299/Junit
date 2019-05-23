@@ -1,5 +1,7 @@
 package com.didispace.mapper;
 
+import java.util.List;
+
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
@@ -55,4 +57,6 @@ public interface UserMapper {
      * @mbg.generated Sun May 19 16:51:27 CST 2019
      */
     int updateByPrimaryKey(User record);
+    
+    List<User> testUnion();
 }
