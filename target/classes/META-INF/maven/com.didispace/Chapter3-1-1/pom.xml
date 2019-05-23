@@ -45,12 +45,24 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+    
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
+	       
+	    <!-- Ehcache缓存 -->
+	    <!--添加缓存-->
+		<dependency>
+		   <groupId>org.springframework.boot</groupId>
+		   <artifactId>spring-boot-starter-cache</artifactId>
+		</dependency>
+		   <dependency>
+		    <groupId>org.mybatis.caches</groupId>
+		    <artifactId>mybatis-ehcache</artifactId>
+		    <version>1.1.0</version>
+		  </dependency>
+  	
 		<!-- thymeleaf html模板依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

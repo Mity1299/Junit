@@ -43,12 +43,20 @@ public class UserBizImplTest {
         System.out.println(user.getName());
     }
 
-    @Test
+    @Ignore
     public void testUnion(){
         List<User> userList = userBiz.testUnion();
         for (User user : userList) {
             System.out.println(user.getId());
         }
         System.out.println("finish");
+    }
+    
+    @Test
+    public void testEhCache() {
+        User user1=userBiz.selectById((long) 1);
+        System.out.println(user1.getName());
+        User user2=userBiz.selectById((long) 1);
+        System.out.println(user2.getName());
     }
 }

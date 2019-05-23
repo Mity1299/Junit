@@ -9,6 +9,7 @@ import java.util.List;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.BindingResult;
 
@@ -26,13 +27,15 @@ public class UserBizImpl implements UserBiz {
     @Autowired
     UserMapper userMapper;
     
+    
+    @Cacheable(value ="content",key = "targetClass + methodName + #p0 + #p1")
     @Override
     public User selectById(Long id) {
         // TODO Auto-generated method stub
         User user = userMapper.selectByPrimaryKey(id);
         return user;
     }
-
+    
     @Override
     public int insertUser(String name,Integer age) {
         // TODO Auto-generated method stub
@@ -42,11 +45,13 @@ public class UserBizImpl implements UserBiz {
         return userMapper.insert(user);
     }
 
+    
     @Override
     public int insertUserCorrect( User user) {
         return userMapper.insert(user);
     }
 
+    
     @Override
     public List<User> testUnion() {
         // TODO Auto-generated method stub
