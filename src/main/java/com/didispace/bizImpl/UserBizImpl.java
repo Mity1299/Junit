@@ -28,7 +28,7 @@ public class UserBizImpl implements UserBiz {
     UserMapper userMapper;
     
     
-    @Cacheable(value ="content",key = "targetClass + methodName + #p0 + #p1")
+    @Cacheable(value ="content",key = "targetClass + methodName + #p0")
     @Override
     public User selectById(Long id) {
         // TODO Auto-generated method stub

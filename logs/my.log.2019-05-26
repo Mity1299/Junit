@@ -1,0 +1,129 @@
+2019-05-23 14:17:04,856  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 8120 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 14:17:04,868 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 14:17:04,873  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 14:17:10,410  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 8120 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 14:17:10,422 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 14:17:10,424  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 14:21:46,345  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 14904 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 14:21:46,346 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 14:21:46,347  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 14:24:55,536  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 3512 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 14:24:55,538 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 14:24:55,540  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 14:25:02,650  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 7.659 seconds (JVM running for 8.83)
+2019-05-23 14:25:04,181 DEBUG testUnion:145 ---- ==>  Preparing: select id, name, age from user where id > 13 union select * from user where id >30 
+2019-05-23 14:25:04,214 DEBUG testUnion:145 ---- ==> Parameters: 
+2019-05-23 14:25:04,233 DEBUG testUnion:145 ---- <==      Total: 6
+2019-05-23 14:25:25,961  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 6080 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 14:25:25,962 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 14:25:25,965  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 14:25:59,286  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 1556 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 14:25:59,288 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 14:25:59,289  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 14:26:06,052  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 7.61 seconds (JVM running for 8.821)
+2019-05-23 14:26:07,550 DEBUG testUnion:145 ---- ==>  Preparing: select id, name, age from user where id > 13 union select * from user where id >30 
+2019-05-23 14:26:07,627 DEBUG testUnion:145 ---- ==> Parameters: 
+2019-05-23 14:26:07,650 DEBUG testUnion:145 ---- <==      Total: 6
+2019-05-23 14:26:54,554  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 14200 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 14:26:54,557 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 14:26:54,561  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 14:27:33,704  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 7756 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 14:27:33,706 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 14:27:33,707  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 14:27:53,234  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 9288 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 14:27:53,235 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 14:27:53,236  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 14:28:28,900  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 13104 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 14:28:28,901 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 14:28:28,902  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 14:30:25,085  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 15308 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 14:30:25,086 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 14:30:25,087  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 14:30:33,517  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 9.498 seconds (JVM running for 10.736)
+2019-05-23 14:30:35,151 DEBUG testUnion:145 ---- ==>  Preparing: select id, name, age from user where id < 13 union select * from user where id > 30 
+2019-05-23 14:30:35,193 DEBUG testUnion:145 ---- ==> Parameters: 
+2019-05-23 14:30:35,215 DEBUG testUnion:145 ---- <==      Total: 6
+2019-05-23 14:33:44,698  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 8808 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 14:33:44,699 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 14:33:44,701  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 14:33:53,127  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 9.297 seconds (JVM running for 11.15)
+2019-05-23 14:33:54,956 DEBUG testUnion:145 ---- ==>  Preparing: select id, name, age from user where id < 13 union select id, name, age from user where id > 30 
+2019-05-23 14:33:54,998 DEBUG testUnion:145 ---- ==> Parameters: 
+2019-05-23 14:33:55,021 DEBUG testUnion:145 ---- <==      Total: 6
+2019-05-23 21:37:08,846  INFO UserControllerTest:48 ---- Starting UserControllerTest on WIN-MKK49AEUNMI with PID 4708 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 21:37:08,847 DEBUG UserControllerTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 21:37:08,848  INFO UserControllerTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 21:37:17,126  INFO UserControllerTest:57 ---- Started UserControllerTest in 8.905 seconds (JVM running for 10.277)
+2019-05-23 21:37:19,175 DEBUG insert:145 ---- ==>  Preparing: insert into user (id, name, age) values (?, ?, ?) 
+2019-05-23 21:37:19,225 DEBUG insert:145 ---- ==> Parameters: null, monika(String), 0(Integer)
+2019-05-23 21:37:19,235 DEBUG insert:145 ---- <==    Updates: 1
+2019-05-23 21:41:16,714  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 5080 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 21:41:16,715 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 21:41:16,717  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 21:41:24,727  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 8.614 seconds (JVM running for 10.662)
+2019-05-23 21:41:26,888 DEBUG testUnion:145 ---- ==>  Preparing: select id, name, age from user where id < 13 union select id, name, age from user where id > 30 
+2019-05-23 21:41:26,931 DEBUG testUnion:145 ---- ==> Parameters: 
+2019-05-23 21:41:26,957 DEBUG testUnion:145 ---- <==      Total: 9
+2019-05-23 21:42:07,118  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 16028 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 21:42:07,120 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 21:42:07,122  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 21:42:16,133  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 9.624 seconds (JVM running for 10.796)
+2019-05-23 21:42:18,004 DEBUG selectByPrimaryKey:145 ---- ==>  Preparing: select id, name, age from user where id = ? 
+2019-05-23 21:42:18,062 DEBUG selectByPrimaryKey:145 ---- ==> Parameters: 1(Long)
+2019-05-23 21:42:18,086 DEBUG selectByPrimaryKey:145 ---- <==      Total: 1
+2019-05-23 21:42:18,090 DEBUG selectByPrimaryKey:145 ---- ==>  Preparing: select id, name, age from user where id = ? 
+2019-05-23 21:42:18,091 DEBUG selectByPrimaryKey:145 ---- ==> Parameters: 2(Long)
+2019-05-23 21:42:18,095 DEBUG selectByPrimaryKey:145 ---- <==      Total: 1
+2019-05-23 21:42:31,285  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 8484 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 21:42:31,286 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 21:42:31,287  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 21:42:40,858  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 10.585 seconds (JVM running for 11.793)
+2019-05-23 21:42:42,830 DEBUG selectByPrimaryKey:145 ---- ==>  Preparing: select id, name, age from user where id = ? 
+2019-05-23 21:42:42,949 DEBUG selectByPrimaryKey:145 ---- ==> Parameters: 1(Long)
+2019-05-23 21:42:42,973 DEBUG selectByPrimaryKey:145 ---- <==      Total: 1
+2019-05-23 21:42:42,976 DEBUG selectByPrimaryKey:145 ---- ==>  Preparing: select id, name, age from user where id = ? 
+2019-05-23 21:42:42,978 DEBUG selectByPrimaryKey:145 ---- ==> Parameters: 1(Long)
+2019-05-23 21:42:42,980 DEBUG selectByPrimaryKey:145 ---- <==      Total: 1
+2019-05-23 21:45:17,033  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 9200 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 21:45:17,035 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 21:45:17,036  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 21:45:27,645  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 11.262 seconds (JVM running for 12.572)
+2019-05-23 21:45:29,380 DEBUG selectByPrimaryKey:145 ---- ==>  Preparing: select id, name, age from user where id = ? 
+2019-05-23 21:45:29,436 DEBUG selectByPrimaryKey:145 ---- ==> Parameters: 1(Long)
+2019-05-23 21:45:29,456 DEBUG selectByPrimaryKey:145 ---- <==      Total: 1
+2019-05-23 21:45:29,459 DEBUG selectByPrimaryKey:145 ---- ==>  Preparing: select id, name, age from user where id = ? 
+2019-05-23 21:45:29,460 DEBUG selectByPrimaryKey:145 ---- ==> Parameters: 1(Long)
+2019-05-23 21:45:29,464 DEBUG selectByPrimaryKey:145 ---- <==      Total: 1
+2019-05-23 21:55:24,537  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 14072 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 21:55:24,538 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 21:55:24,539  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 21:55:32,770  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 9.02 seconds (JVM running for 10.399)
+2019-05-23 21:55:32,966 DEBUG UserMapper:62 ---- Cache Hit Ratio [com.didispace.mapper.UserMapper]: 0.0
+2019-05-23 21:55:34,600 DEBUG selectByPrimaryKey:145 ---- ==>  Preparing: select id, name, age from user where id = ? 
+2019-05-23 21:55:34,653 DEBUG selectByPrimaryKey:145 ---- ==> Parameters: 1(Long)
+2019-05-23 21:55:34,684 DEBUG selectByPrimaryKey:145 ---- <==      Total: 1
+2019-05-23 21:55:34,690 DEBUG UserMapper:62 ---- Cache Hit Ratio [com.didispace.mapper.UserMapper]: 0.5
+2019-05-23 22:02:56,093  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 11736 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 22:02:56,094 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 22:02:56,095  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 22:03:06,872  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 11.763 seconds (JVM running for 13.11)
+2019-05-23 22:03:52,206  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 8740 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 22:03:52,231 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 22:03:52,233  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 22:04:01,757  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 10.253 seconds (JVM running for 11.525)
+2019-05-23 22:06:04,036  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 17348 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 22:06:04,037 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 22:06:04,044  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 22:06:14,949  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 11.789 seconds (JVM running for 13.193)
+2019-05-23 22:06:15,158 DEBUG UserMapper:62 ---- Cache Hit Ratio [com.didispace.mapper.UserMapper]: 0.0
+2019-05-23 22:06:17,689 DEBUG selectByPrimaryKey:145 ---- ==>  Preparing: select id, name, age from user where id = ? 
+2019-05-23 22:06:17,742 DEBUG selectByPrimaryKey:145 ---- ==> Parameters: 1(Long)
+2019-05-23 22:06:17,789 DEBUG selectByPrimaryKey:145 ---- <==      Total: 1
+2019-05-23 22:10:39,544  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 7284 (C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\SpringBoot-Learning-1.x\Chapter3-1-1)
+2019-05-23 22:10:39,546 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-23 22:10:39,548  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-23 22:10:54,458  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 15.967 seconds (JVM running for 18.641)
+2019-05-23 22:10:54,759 DEBUG UserMapper:62 ---- Cache Hit Ratio [com.didispace.mapper.UserMapper]: 0.0
+2019-05-23 22:10:57,807 DEBUG selectByPrimaryKey:145 ---- ==>  Preparing: select id, name, age from user where id = ? 
+2019-05-23 22:10:57,899 DEBUG selectByPrimaryKey:145 ---- ==> Parameters: 1(Long)
+2019-05-23 22:10:57,923 DEBUG selectByPrimaryKey:145 ---- <==      Total: 1
